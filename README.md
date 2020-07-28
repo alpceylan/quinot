@@ -33,4 +33,4 @@ Drawer
 <img src="https://user-images.githubusercontent.com/31375123/88677419-ed003480-d0f5-11ea-8504-b2ec43999b67.png" width=25% height=25%>
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/alpceylan/quinot/blob/master/LICENSE)
