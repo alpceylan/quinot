@@ -24,7 +24,7 @@ class AppBarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text(
+      title: const Text(
         'Quinot',
         style: TextStyle(
           fontFamily: 'Montserrat',

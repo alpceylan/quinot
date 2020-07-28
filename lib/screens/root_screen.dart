@@ -33,8 +33,6 @@ class _RootScreenState extends State<RootScreen> {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return WaitingWidget();
         }
-        // _authenticationService.logout();
-        // USE THIS AFTER DELETING USER DATA FROM FIREBASE
         if (snapshot.data != null) {
           return HomeScreen();
         }

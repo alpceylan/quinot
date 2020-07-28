@@ -62,7 +62,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
             leading: Icon(
               Icons.exit_to_app,
             ),
-            title: Text('Logout'),
+            title: const Text('Logout'),
             onTap: () async {
               await _authenticationService.logout();
               Navigator.of(context).pushReplacementNamed(RootScreen.routeName);

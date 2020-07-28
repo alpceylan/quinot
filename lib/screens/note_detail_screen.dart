@@ -57,7 +57,7 @@ class _NoteDetailScreenState extends State<NoteDetailScreen> {
     void _updateNote() async {
       if (_titleController.text.length <= 0) {
         _scaffoldKey.currentState.showSnackBar(SnackBar(
-          content: Text('Title shouldn\'t be empty.'),
+          content: const Text('Title shouldn\'t be empty.'),
           action: SnackBarAction(
             label: 'Close',
             onPressed: () {
@@ -67,7 +67,7 @@ class _NoteDetailScreenState extends State<NoteDetailScreen> {
         ));
       } else if (_noteController.text.length <= 0) {
         _scaffoldKey.currentState.showSnackBar(SnackBar(
-          content: Text('Note shouldn\'t be empty.'),
+          content: const Text('Note shouldn\'t be empty.'),
           action: SnackBarAction(
             label: 'Close',
             onPressed: () {

@@ -21,6 +21,14 @@ dependencies:
   flutter_sqflite_manager: ^0.1.2
   connectivity: ^0.4.9
   data_connection_checker: ^0.3.4
+  flutter_launcher_icons: ^0.7.5
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'assets/icons/logo.jpg'
+  adaptive_icon_background: '#191919'
+  adaptive_icon_foreground: 'assets/icons/logo.jpg'
 
 dev_dependencies:
   flutter_test:
